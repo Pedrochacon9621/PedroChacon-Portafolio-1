@@ -5,7 +5,7 @@ include "rutas1.php"
     <div class="contentFooter1">
         <div>
             <p>© 2025 Pedro Chacón. Todos los derechos reservados.  </p><br>
-            <a href="<?= $rutaPolitica ?>" target="_blank">Politica de privacidad</a>
+            <a href="<?= $rutaPolitica ?>" target="_blank">🔗Politica de privacidad</a>
         </div>
         <div>
             <!--<p><a href="mailto:pedrochacon9621@gmail.com">pedrochacon9621@gmail.com</a></p>-->
@@ -18,7 +18,7 @@ include "rutas1.php"
             </div>
             -->
         <div>
-            <p><a href="#top">↑ Volver al inicio</a></p>
+            <p><a href="#top"> Volver al inicio <img src="<?= $rutaImagenes ?>/icons/flechaArriba4.svg" alt=""></a></p>
         </div>
     </div>
 </div>        

@@ -342,7 +342,7 @@
             <div id="btnContacto1" class="tarjetaContacto">
                 <div class="divTextoContacto">
                     <div class="divImgTec"><img src="imagenes/icons/contact2.svg" alt=""></div>
-                    <span><h4>Click para visualizar información de contacto</h4></span>
+                    <span>Visualizar información de contacto</span>
                 </div>
             </div>
         </div>    

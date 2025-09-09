@@ -14,7 +14,7 @@
                 </div>
                 -->
                 <div><img src="<?= $rutaImagenes ?>/generales/correo1.png" alt="" style="width: 300px;"></div>
-                <button id="btnCopiarContact" style="padding: 10px">Copiar correo electrónico</button>
+                <button id="btnCopiarContact" class="enlaceBtn1">Copiar correo electrónico</button>
                 <p id="textCorreoCopiar" style="visibility: hidden;">pedrochacon9621@gmail.com</p>
                     
             </div>
