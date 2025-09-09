@@ -585,6 +585,10 @@ footer{
     gap: 15px;
     font-size: 1.1rem;
 }
+
+.divTextoContacto .divImgTec{
+    width: 40px;
+}
 .divTextoContacto:hover{    
     background-color:  rgb(73, 73, 73);
     color: rgb(184, 183, 183);

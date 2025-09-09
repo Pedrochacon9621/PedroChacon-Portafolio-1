@@ -37,9 +37,19 @@
                     </div>
                     
             </div>   
-                     <div class="btnCV">
-                        <a href="docs/CV-Pedro_Chacon.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
-                    </div>     
+                         <div class="btnCV">
+                            <a href="docs/CV-Pedro_Chacon.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
+                        </div> 
+                    <!--  Con enlace a GIT  
+                    <div style="display: flex; gap:10px">
+                        <div class="btnCV">
+                            <a href="docs/CV-Pedro_Chacon.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
+                        </div>   
+                        <div class="btnCV">
+                            <a href="https://github.com/pedrochacon9621" class="enlaceBtn1" target="_blank">GitHub <img style="width: 15px" src="<?= $rutaImagenes ?>/iconsTec/GitHub_dark.svg" alt=""></a>
+                        </div>             
+                    </div>
+                    -->
         </div>
         <!--Presentacion.....................................................................................................................................................-->
 

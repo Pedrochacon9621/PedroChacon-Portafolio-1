@@ -10,6 +10,7 @@ include "rutas1.php"
         <div>
             <!--<p><a href="mailto:pedrochacon9621@gmail.com">pedrochacon9621@gmail.com</a></p>-->
             <!--<p>Barcelona, España</p>-->
+             <p><a href="https://github.com/pedrochacon9621" target="_blank"><img style="width: 25px" src="<?= $rutaImagenes ?>/iconsTec/GitHub_light.svg" alt=""> GitHub</a></p>
         </div>
             <!--
             <div class="social-icons">
