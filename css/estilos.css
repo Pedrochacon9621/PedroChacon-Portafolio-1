@@ -541,6 +541,23 @@ footer{
     color: rgb(230, 230, 230);
 }
 
+@media (max-width: 600px) {
+    .divContentModalApp{
+        padding: 30px 15px;
+    }
+    .divContentModalApp .divModalText {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .divContentModalApp{
+        font-size: 15px;
+    }
+    .divContentModalApp .modalImg{
+       width: 300px;
+    }
+}
+
 /* Modal oculto Tarjetas de proyectos -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Modal oculto Politica de privacidad -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
