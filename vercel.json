@@ -5,6 +5,18 @@
     },
     "api/paginas/politica.php": {
       "runtime": "vercel-php@0.7.4"
+    },
+    "api/componentes/footer.php": {
+      "runtime": "vercel-php@0.7.4"
+    },
+    "api/componentes/modalContacto.php": {
+      "runtime": "vercel-php@0.7.4"
+    },
+    "api/componentes/nav.php": {
+      "runtime": "vercel-php@0.7.4"
+    },
+    "api/componentes/rutas1.php": {
+      "runtime": "vercel-php@0.7.4"
     }
   },
   "routes": [
@@ -29,8 +41,8 @@
       "dest": "/componentes/$1"
     },
     {
-      "src": "/paginas/politica.php",
-      "dest": "/api/paginas/politica.php"
+      "src": "/paginas/(.*)",
+      "dest": "/api/paginas/$1"
     },
     {
       "src": "/(.*)",
