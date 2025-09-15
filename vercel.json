@@ -1,0 +1,32 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.4"
+    },
+    "api/paginas/*.php": {
+      "runtime": "vercel-php@0.7.4"
+    }
+  },
+  "routes": [
+    {
+      "src": "/css/(.*)",
+      "dest": "/api/css/$1"
+    },
+    {
+      "src": "/js/(.*)",
+      "dest": "/api/js/$1"
+    },
+    {
+      "src": "/imagenes/(.*)",
+      "dest": "/api/imagenes/$1"
+    },
+    {
+      "src": "/paginas/(.*)",
+      "dest": "/api/paginas/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/index.php"
+    }
+  ]
+}
