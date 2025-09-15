@@ -26,12 +26,9 @@
       "dest": "/componentes/$1"
     },
     {
-      "src": "/paginas/(.*)",
-      "dest": "/paginas/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
   ]
 }
+
