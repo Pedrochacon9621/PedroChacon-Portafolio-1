@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Inicio</title>
 </head>
 <body>
@@ -397,6 +397,6 @@
         include "componentes/modalContacto.php";
     ?>
     <!-- Modal oculto para Contacto-->
-     <script src="/js/funciones.js"></script>
+     <script src="js/funciones.js"></script>
 </body>
 </html>
