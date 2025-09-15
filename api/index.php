@@ -6,7 +6,7 @@ $ruta = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
 // Manejador de rutas
 switch ($ruta) {
-    case '/paginas/politica.php':
+    case 'paginas/politica.php':
         require __DIR__ . '/../paginas/politica.php';
         exit;
 
