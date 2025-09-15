@@ -2,6 +2,9 @@
   "functions": {
     "api/index.php": {
       "runtime": "vercel-php@0.7.4"
+    },
+    "api/paginas/politica.php": {
+      "runtime": "vercel-php@0.7.4"
     }
   },
   "routes": [
@@ -24,6 +27,10 @@
     {
       "src": "/componentes/(.*)",
       "dest": "/componentes/$1"
+    },
+    {
+      "src": "/paginas/politica.php",
+      "dest": "/api/paginas/politica.php"
     },
     {
       "src": "/(.*)",
