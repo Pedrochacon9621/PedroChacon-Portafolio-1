@@ -10,7 +10,8 @@
     <header>
          <!--nav.....................................................................................................................................................-->
         <?php
-            include "../componentes/nav.php";       
+        $raiz2 = dirname(__DIR__);
+            include $raiz2 . "/componentes/nav.php";       
         ?>
         <!--nav.....................................................................................................................................................--> 
     </header>
@@ -53,13 +54,13 @@
     <footer>
          <!--Contenido FOOTER.....................................................................................................................................................-->
         <?php
-            include "../componentes/footer.php";
+            include $raiz2 . "/componentes/footer.php";
         ?>
         <!--Contenido FOOTER.....................................................................................................................................................-->
     </footer>
     <!-- Modal oculto para COntacto-->
     <?php
-        include "../componentes/modalContacto.php";
+        include $raiz2 . "/componentes/modalContacto.php";
     ?>  
     <!-- Modal oculto para Contacto-->  
  <script src="../js/politica.js"></script>
