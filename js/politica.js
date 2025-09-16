@@ -37,3 +37,23 @@
   });
 
 //Funcion menu hamburger----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Funcion para copiar correo en el modal de contacto---------------------------------------------------------------------------------------------------------------------------------------
+
+  //'DOMContentLoaded' espera a que todo este cargado en el DOM para ejecutar la funcion, medida de seguridad de efectividad para esta funcion
+      document.addEventListener('DOMContentLoaded', function () {
+          const botonCopiar = document.getElementById('btnCopiarContact');
+          const correoParrafo = document.getElementById('textCorreoCopiar');
+
+          botonCopiar.addEventListener('click', function () {
+              const correo = correoParrafo.textContent.trim();
+
+              // API del portapapeles
+              navigator.clipboard.writeText(correo).then(function () {
+                  alert('Correo electrónico copiado');
+              }).catch(function (err) {
+                  console.error('Error al copiar: ', err);
+              });
+          });
+      });
+//Funcion para copiar correo en el modal de contacto-----------------------------------------------------------------------------------------------------------------------------
