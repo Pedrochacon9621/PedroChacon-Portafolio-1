@@ -310,11 +310,12 @@
                         <a class="enlaceApp1" href="https://formularioplantillacrudnodejs1.onrender.com">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
-                <!--
+                
                 <div class="tarjeta">
-                    <div class="divImgTarj"><img src="" alt=""></div>
+                    <div class="divImgTarj"><img src="imagenes/proyectos/webRestaurant1.jpeg" alt=""></div>
                     <div class="parrafoTarj">
-                        <p>HOLA</p>
+                        <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
+                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illo in aspernatur dignissimos ut rem inventore obcaecati! Exercitationem quas odio ab minus nemo rerum quaerat, corporis atque asperiores facere dolor!</p>
@@ -322,14 +323,16 @@
                 </div>
                 
                 <div class="tarjeta">
-                    <div class="divImgTarj"><img src="" alt=""></div>
+                    <div class="divImgTarj"><img src="imagenes/proyectos/proyectoFormRestaurant.png" alt=""></div>
                     <div class="parrafoTarj">
-                        <p>HOLA</p>
+                        <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
+                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illo in aspernatur dignissimos ut rem inventore obcaecati! Exercitationem quas odio ab minus nemo rerum quaerat, corporis atque asperiores facere dolor!</p>
                     </div>
                 </div>
+                <!--
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="" alt=""></div>
                     <div class="parrafoTarj">
