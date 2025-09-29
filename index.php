@@ -265,6 +265,30 @@
                                 <p>Render</p>
                             </div>
                         </div>
+                        <div class="tarjetasTec">
+                            <div class="divImgTec">
+                                <img src="imagenes/iconsTec/Vercel_light.svg" alt="">
+                            </div>
+                            <div class="divTextTec">
+                                <p>Vercel</p>
+                            </div>
+                        </div>
+                        <div class="tarjetasTec">
+                            <div class="divImgTec">
+                                <img src="imagenes/iconsTec/Koyeb.svg" alt="">
+                            </div>
+                            <div class="divTextTec">
+                                <p>Koyeb</p>
+                            </div>
+                        </div>
+                        <div class="tarjetasTec">
+                            <div class="divImgTec">
+                                <img src="imagenes/iconsTec/neon.svg" alt="">
+                            </div>
+                            <div class="divTextTec">
+                                <p>Neon</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -291,7 +315,7 @@
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/appcorreo1.png" alt=""></div>
                     <div class="parrafoTarj">
-                        <h3>Correos masivos personalizados</h3><br>
+                        <h3>Sistema de envíos personalizados de email a múltiples destinatarios</h3><br>
                         <p>Aplicación para enviar varios correos personalizados, desarrollada en React y Node.js.</p>
                     </div> 
                     <div class="parrafoTarj2">
@@ -303,7 +327,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/crudEjemplo1.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
-                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
+                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado el Backend con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Interfaz de usuario simple, que permite el registro de información a una base de datos, logrando realizar las operaciones CRUD, consultar, guardar, actualizar y eliminar, ofreciendo una interfaz amigable. Fue realizado con objetivos prácticos, y a la vez sirve como base o plantilla para otros proyectos.</p>
@@ -314,22 +338,26 @@
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/webRestaurant1.jpeg" alt=""></div>
                     <div class="parrafoTarj">
-                        <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
-                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
+                        <h3>Sitio web modelo de restaurante</h3><br>
+                        <p>Sitio web para restaurante con sección de menús dinámica, conectada a una base de datos PostgreSQL. Interfaz desarrollada en React y CSS.</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illo in aspernatur dignissimos ut rem inventore obcaecati! Exercitationem quas odio ab minus nemo rerum quaerat, corporis atque asperiores facere dolor!</p>
+                        <p>Modelo de página web para negocios del sector gastronómico, con una sección de menús cuya información se consulta en tiempo real desde una base de datos PostgreSQL. La interfaz está desarrollada en React y CSS, ofreciendo una experiencia moderna y adaptable.</p>
+                        <p>Esta web funciona como frontend del Sistema de gestión de productos para restaurantes, una aplicación complementaria cuyo frontend también está construido en React y el backend en Django. Juntas, ambas herramientas forman una solución integral para la gestión y presentación de productos en entornos de restauración.</p>
+                        <a class="enlaceApp1" href="https://restaurant1-frontend.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
                 
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/proyectoFormRestaurant.png" alt=""></div>
                     <div class="parrafoTarj">
-                        <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
-                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
+                        <h3>Sistema de gestión de productos</h3><br>
+                        <p>Sistema web automatizado para administrar productos y categorías en un negocio. Incluye autenticación con roles y funciones específicas por usuario. Desarrollado con React y CSS en el frontend, y Django en el backend.</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum illo in aspernatur dignissimos ut rem inventore obcaecati! Exercitationem quas odio ab minus nemo rerum quaerat, corporis atque asperiores facere dolor!</p>
+                        <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.</p>
+                        <p>Este panel de administración se integra con el sitio web modelo de restaurante incluido en este portafolio, proporcionando el backend que alimenta dinámicamente la sección de menús. Aunque está orientado al sector gastronómico, su arquitectura es completamente adaptable a cualquier tipo de negocio que requiera gestión de productos.</p>
+                        <a class="enlaceApp1" href="https://formulario-product1.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
                 <!--
