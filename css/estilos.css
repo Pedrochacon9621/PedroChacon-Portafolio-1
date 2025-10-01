@@ -30,23 +30,45 @@ main{
 }
 
 
+
 /* Fuentes -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*---h2 para titulos:----*/
 .titulos2{
     margin: 0 auto;
     /*color: rgb(245, 243, 243) ;*/
-    width: 70%;
+    width: 1280px;
+    max-width: 1300px;
     margin-bottom: 20px;
     background-color: cadetblue ;
     border-radius: 25px;
     padding: 10px 0 10px 35px ;
+    color: rgb(31, 31, 31);
+}
+@media(max-width:1280px){
+    .titulos2{
+        width: 100%;
+    }
 }
 .titulos3 {
     width: 100%;
+    height: 70px;
     display: flex;
     color:  rgb(230, 230, 230);
-    padding-top: 15px;
+    /*padding-top: 15px;*/
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 30px;
+    background-color:  rgb(58, 58, 58);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer; 
 }
+.rotarFlecha {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}/*FLECHA DE LOS ACORDEON*/
 
 .texto1{
     width: 70%;
@@ -105,6 +127,8 @@ main{
     justify-content: end;
     gap: 50px;
     padding: 10px;
+    max-width: 1800px;
+    margin: 0 auto  ;
 }
 
 .menu1 li{
@@ -210,10 +234,11 @@ main{
     background-color:rgb(133, 186, 189);
     padding: 3px 20px;
     border-radius: 20px;
+    color: rgb(31, 31, 31);
 }
 
 .divPresentacion2{
-    width: 75%;
+    max-width: 1280px;
     padding: 15px 100px;
    background-color:rgb(176, 215, 218);
    /*background-color: rgb(92, 91, 91);*/
@@ -234,7 +259,7 @@ main{
     padding: 20px;
 }
 
-@media (max-width: 1360px) {
+@media (max-width: 1279px) {
     .divPresentacion2{
         padding: 50px;
         border-radius: 1px;
@@ -245,6 +270,11 @@ main{
 @media (max-width: 800px) {
     .divPresentacion2{
         padding: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .divPresentacion2{
+        font-size: 0.9rem;
     }
 }
 @media (max-width: 500px) {
@@ -259,33 +289,54 @@ main{
 .divTarjTecnologias{   
     background-color: rgb(71, 71, 71);
     border-radius: 5px;
-    padding: 20px;
-    padding-left: 50px;
-    padding-bottom: 40px;
+    /*padding: 20px;*/
+    /*padding-left: 50px;*/
+    /*padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;*/
+    /*padding-bottom: 40px;*/
+    width: 1200px;
+    
 }
 .divTarjTecnologias hr{
-    width: 95%;
+    /*width: 95%;*/
 }
 .divAgruparTarjTec{   
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
 }
-@media (max-width: 1400px) {
+.divAgruparTarjTec.visible{
+    display: grid;
+}
+.centrarUltimas2{
+    grid-column: 1 / span 4;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+@media (max-width: 1199px) {
     .divTarjTecnologias{
         width: 100%;
     }   
 }
-@media (max-width: 1270px) {
-    
+
+@media (max-width: 1160px) {
     .divAgruparTarjTec {
         grid-template-columns: repeat(3, 1fr);
     }
+     .centrarUltimas2{
+        all: unset; /* elimina todos los estilos heredados */
+        display: contents;
+    }
 }
-@media (max-width: 980px) {
-    
+
+@media (max-width: 920px) { 
     .divAgruparTarjTec {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -302,7 +353,7 @@ main{
 }
 .titulos3Grid {
  /* grid-column: 1 / -1; /* Hace que el título ocupe toda la fila */
-  margin-left: 15px;
+  /*margin-left: 15px;*/
   
 }
 .tarjetasTec{
@@ -315,8 +366,10 @@ main{
     border-radius: 5px;
     margin: 15px;
     outline: 10px solid rgb(44, 44, 44);
-    height: 100px;
-    width: 220px;
+    /*height: 100px;
+    width: 220px;*/
+    height: 80px;
+    width: 200px;
     color:  rgb(230, 230, 230);
     box-shadow: 1rem 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.25);
     transition: transform 0.3s ease, box-shadow 0.3s ease; /*suaviza el cambio de posición y sombra.*/
@@ -344,19 +397,28 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;   
+    width: 100%; 
 }
 
-.divTarjetas{
+.divTarjetas{    
     border-radius: 5px;
     /*background-color: rgb(236, 236, 236); dassd*/
     background-color: rgb(71, 71, 71);
     padding: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales*/
-    gap: 2rem;
-    margin-bottom: 50px;
+    justify-items: center;
+    justify-content: center;
+    gap: 30px;
+    /*margin-bottom: 50px;*/
     cursor: pointer;
+}
+
+.centrarUltimas{
+    grid-column: 1 / span 3;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 
 }
 .tarjeta{
@@ -380,6 +442,7 @@ main{
     outline: 10px solid rgb(44, 44, 44);
     color:rgb(230, 230, 230);  
 }
+
 .tarjeta:hover {
   transform: translateY(-10px); /*-  mueve la tarjeta 10px hacia arriba*/
   box-shadow: 1.5rem 2rem 3rem -0.5rem rgba(0, 0, 0, 0.35);/* aumenta la sombra para dar más profundidad*/
@@ -409,18 +472,58 @@ main{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-@media (max-width: 1400px) {
+#verProyectos{
+    display: none;
+}
+.hr-verProyectos{
+    display: none;
+    width: 100%;
+}
+@media (max-width: 1344px) {
     .divTarjetas{
         width: 100%;
     }
-}
-@media (max-width: 1300px) {
-    .divTarjetas {
-        grid-template-columns: repeat(2, 1fr);
+    .tarjeta{
+        width: 390px;
     }
 }
+@media (max-width: 1278px) {
+    .divTarjetas {
+        display: none;
+        grid-template-columns: repeat(2, 1fr);
+        /*padding-left:200px ;
+        padding-right: 200px;*/
+    }
+    #verProyectos{
+        display: flex;
+    }
+    .hr-verProyectos{
+        display: block;
+    }
+    .divTarjetas.visible{
+    display: grid;
+}
+    /*clase para dar funcionalidad de QUITAR contenedor CentrarUltimas*/
+    .centrarUltimas {
+        all: unset; /* elimina todos los estilos heredados */
+        display: contents;
+    }
+    .tarjeta{
+        width: 400px;
+    }
+
+}
+/*
+@media (max-width: 1230px) {
+    .divTarjetas {
+        padding-left:150px;
+        padding-right:150px;
+    }
+    
+}*/
 @media (max-width: 871px) {
     .divTarjetas {
+        width: 100%;
         grid-template-columns: 1fr;
         justify-items: center; /* Centra horizontalmente cada ítem */       
     }
@@ -581,6 +684,7 @@ footer{
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    margin-top: 50px;
 }
 
 .tarjetaContacto{

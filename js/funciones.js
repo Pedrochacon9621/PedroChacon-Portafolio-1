@@ -137,3 +137,21 @@ document.addEventListener('keydown', function (e) {
   });
 
 //Funcion menu hamburger----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//----------------------------------------------------------------------------------------------------------------------------------------
+function toggleVisible(targetId, triggerElement) {
+  const objetivo = document.getElementById(targetId);
+  if (objetivo) {
+    objetivo.classList.toggle('visible');
+  }
+
+  // Rotar la flecha dentro del elemento que fue clickeado
+  const flecha = triggerElement.querySelector('img');
+  if (flecha) {
+    flecha.classList.toggle('rotarFlecha');
+  }
+}
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------
+

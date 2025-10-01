@@ -61,8 +61,8 @@
             <div class="divTarjTecnologias">
                 <!--columna 1-->
                 <div class="divContTarjTec">
-                    <div class="titulos3 titulos3Grid"><h3>Frontend</h3></div><hr>
-                    <div class=divAgruparTarjTec>
+                    <div class="titulos3 titulos3Grid" onclick="toggleVisible('frontend',this)"><p>Frontend</p> <img src="imagenes/icons/arrowAbajo.svg" alt=""></div><hr>
+                    <div class=divAgruparTarjTec id="frontend">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/html5.svg" alt="">
@@ -130,9 +130,9 @@
                     </div>    
                 </div>
                 <!--columna 2-->
-                <div class="divContTarjTec ">
-                    <div class="titulos3 titulos3Grid"><h3>Backend</h3></div><hr>
-                    <div class=divAgruparTarjTec>
+                <div class="divContTarjTec">
+                    <div class="titulos3 titulos3Grid" onclick="toggleVisible('backend',this)"><p>Backend</p><img src="imagenes/icons/arrowAbajo.svg" alt=""></div><hr>
+                    <div class=divAgruparTarjTec id="backend">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/python.svg" alt="">
@@ -165,6 +165,7 @@
                                 <p>Express</p>
                             </div>
                         </div>
+                        <div class="centrarUltimas2">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/django.svg" alt="">
@@ -189,12 +190,13 @@
                                 <p>C#.NET</p>
                             </div>
                         </div>
-                    </div>    
+                    </div>
+                    </div><!--Centrar Ultimas -->    
                 </div>
                 <!--columna 3-->
                 <div class="divContTarjTec">
-                    <div class="titulos3 titulos3Grid"><h3>Bases de datos</h3></div><hr>
-                    <div class=divAgruparTarjTec>
+                    <div class="titulos3 titulos3Grid" onclick="toggleVisible('bd',this)"><p>Bases de datos</p><img src="imagenes/icons/arrowAbajo.svg" alt=""></div><hr>
+                    <div class="divAgruparTarjTec" id="bd">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/sql-server.svg" alt="">
@@ -231,8 +233,8 @@
                 </div>
                 <!--columna 4-->
                 <div class="divContTarjTec">
-                    <div class="titulos3 titulos3Grid"><h3>Despliegue y DevOps</h3></div><hr>
-                    <div class=divAgruparTarjTec>
+                    <div class="titulos3 titulos3Grid" onclick="toggleVisible('devops',this)"><p>Despliegue y DevOps</p><img src="imagenes/icons/arrowAbajo.svg" alt=""></div><hr>
+                    <div class="divAgruparTarjTec" id="devops">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/git.svg" alt="">
@@ -265,6 +267,7 @@
                                 <p>Render</p>
                             </div>
                         </div>
+                        <div class="centrarUltimas2">
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/Vercel_light.svg" alt="">
@@ -289,6 +292,7 @@
                                 <p>Neon</p>
                             </div>
                         </div>
+                        </div><!--CENTRARULTIMAS2-->
                     </div>
                 </div>
             </div>
@@ -300,7 +304,8 @@
             <div id="proyectos" class="titulos2">
                 <h2>Proyectos Realizados</h2>
             </div>
-            <div class="divTarjetas">
+            <div id="verProyectos" class="titulos3" onclick="toggleVisible('btn-proyectos',this)"><p>Proyectos</p><img src="imagenes/icons/arrowAbajo.svg" alt=""></div><hr class="hr-verProyectos">
+            <div class="divTarjetas" id="btn-proyectos">
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/AppCasos1.png" alt=""></div>
                     <div class="parrafoTarj">
@@ -334,7 +339,7 @@
                         <a class="enlaceApp1" href="https://formularioplantillacrudnodejs1.onrender.com">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
-                
+                <div class="centrarUltimas"> <!--Centrar Ultimas cuando no estan completas - Eliminar si los numeros de tarjetas totales son pares-->
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/webRestaurant1.jpeg" alt=""></div>
                     <div class="parrafoTarj">
@@ -347,7 +352,6 @@
                         <a class="enlaceApp1" href="https://restaurant1-frontend.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
-                
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="imagenes/proyectos/proyectoFormRestaurant.png" alt=""></div>
                     <div class="parrafoTarj">
@@ -360,6 +364,8 @@
                         <a class="enlaceApp1" href="https://formulario-product1.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
+                </div> <!--Centrar Ultimas cuando no estan completas - Eliminar si los numeros de tarjetas totales son pares-->
+                
                 <!--
                 <div class="tarjeta">
                     <div class="divImgTarj"><img src="" alt=""></div>
