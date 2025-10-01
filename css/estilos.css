@@ -173,7 +173,6 @@ main{
     z-index: 1000;
 }
 
-    
 .menu2 li {
     list-style: none;
     padding: 10px 0;
@@ -301,19 +300,28 @@ main{
 .divTarjTecnologias hr{
     /*width: 95%;*/
 }
-.divAgruparTarjTec{   
-    display: none;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    justify-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+.divAgruparTarjTec {
+  display: grid;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-items: center;
 }
-.divAgruparTarjTec.visible{
-    display: grid;
+
+.divAgruparTarjTec.visible {
+  max-height: 1000px;
+  opacity: 1;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .centrarUltimas2{
     grid-column: 1 / span 4;
     display: flex;
@@ -344,7 +352,7 @@ main{
 @media (max-width: 693px) {
     .divAgruparTarjTec {
         grid-template-columns: 1fr;
-        padding: 20px 0;
+        /*padding: 20px 0;*/
         justify-items: center;
     }
     .divTarjTecnologias{
@@ -489,7 +497,11 @@ main{
 }
 @media (max-width: 1278px) {
     .divTarjetas {
-        display: none;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        padding: 0;
+        transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
         grid-template-columns: repeat(2, 1fr);
         /*padding-left:200px ;
         padding-right: 200px;*/
@@ -501,7 +513,10 @@ main{
         display: block;
     }
     .divTarjetas.visible{
-    display: grid;
+    max-height: 3000px;
+    opacity: 1;
+    padding: 40px;
+
 }
     /*clase para dar funcionalidad de QUITAR contenedor CentrarUltimas*/
     .centrarUltimas {
@@ -529,7 +544,7 @@ main{
     }
 }
 @media (max-width: 600px) {
-    .divTarjetas {
+    .divTarjetas.visible {
        padding: 40px 5px;
         
     }
