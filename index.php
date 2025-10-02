@@ -333,7 +333,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/crudEjemplo1.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
-                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado el Backend con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.Desplegado en Render y base de datos PostgreSQL alojada en Neon.</p>
+                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado el Backend con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery. Desplegado en Render y base de datos PostgreSQL alojada en Neon.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Interfaz de usuario simple, que permite el registro de información a una base de datos, logrando realizar las operaciones CRUD, consultar, guardar, actualizar y eliminar, ofreciendo una interfaz amigable. Fue realizado con objetivos prácticos, y a la vez sirve como base o plantilla para otros proyectos.</p>
