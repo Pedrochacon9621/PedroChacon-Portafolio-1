@@ -435,7 +435,7 @@ main{
 }
 .tarjeta{
     width: 400px;
-    height: 440px;
+    height: 450px;
     /*border: solid 1px rgb(168, 167, 167);*/
     border: solid 1px rgb(126, 125, 125) ;
     border-radius: 5px;
