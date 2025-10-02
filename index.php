@@ -357,7 +357,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/proyectoFormRestaurant.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Sistema de gestión de productos</h3><br>
-                        <p>Sistema web automatizado para administrar productos y categorías en un negocio. Incluye autenticación con roles y funciones específicas por usuario. Desarrollado con React y CSS en el frontend, y Django en el backend. Frontend desplegado en Vercel, backend en Koyeb y base de datos PostgreSQL en Neon</p>
+                        <p>Sistema web para administrar productos y categorías en un negocio. Incluye autenticación con roles y funciones específicas por usuario. Desarrollado con React y CSS en el frontend, y Django en el backend. Frontend desplegado en Vercel, backend en Koyeb y base de datos PostgreSQL en Neon</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.</p>
