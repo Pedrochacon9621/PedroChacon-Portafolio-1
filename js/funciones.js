@@ -131,10 +131,30 @@ document.addEventListener('keydown', function (e) {
 
 //Funcion menu hamburger----------------------------------------------------------------------------------------------------------------------------------------------------------------------
     const hamburger = document.getElementById('hamburger');
-    const menu2 = document.querySelector('.menu2');
-    hamburger.addEventListener('click', () => {
-    menu2.style.display = menu2.style.display === 'flex' ? 'none' : 'flex';
-  });
+const menu2 = document.querySelector('.menu2');
+
+// Alternar visibilidad del menú
+hamburger.addEventListener('click', (e) => {
+  e.stopPropagation(); // evita que el clic se propague al documento
+  const isVisible = menu2.style.display === 'flex';
+  menu2.style.display = isVisible ? 'none' : 'flex';
+});
+
+// Cerrar al hacer clic fuera del menú
+document.addEventListener('click', (e) => {
+  const clickedOutside = !menu2.contains(e.target) && !hamburger.contains(e.target);
+  if (clickedOutside) {
+    menu2.style.display = 'none';
+  }
+});
+
+// Cerrar al presionar Escape
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    menu2.style.display = 'none';
+  }
+});
+
 
 //Funcion menu hamburger----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

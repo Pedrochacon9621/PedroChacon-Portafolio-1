@@ -29,8 +29,6 @@ main{
     /*background-color: rgb(201, 200, 200);*/ 
 }
 
-
-
 /* Fuentes -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /*---h2 para titulos:----*/
 .titulos2{
@@ -300,7 +298,7 @@ main{
     padding-right: 5px;
     padding-top: 5px;*/
     /*padding-bottom: 40px;*/
-    width: 1200px;
+    width: 1260px;
     
 }
 .divTarjTecnologias hr{
@@ -437,10 +435,10 @@ main{
 }
 .tarjeta{
     width: 400px;
-    height: 400px;
+    height: 440px;
     /*border: solid 1px rgb(168, 167, 167);*/
     border: solid 1px rgb(126, 125, 125) ;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color:rgb(44, 44, 44);
     /*background-color: rgb(236, 236, 236);*/   
     box-shadow: 1rem 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.25);
@@ -464,10 +462,17 @@ main{
 .parrafoTarj{
     width: 87%;
     height: 150px; 
+    text-align: justify;
+    
+}
+.parrafoTarj p{
+    line-height: 1.5;
+    font-size: 15px;
 }
 .parrafoTarj2 p{
     display: none;
     text-align: justify;
+    line-height: 1.5;
 }
 .parrafoTarj2 a{
     display: none;

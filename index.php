@@ -25,7 +25,7 @@
                     
                     <div class="contenTextPresent">
                         <p>
-                            Hola, soy Pedro, desarrollador con experiencia en backend y frontend. Con más de 4 años resolviendo problemáticas reales, poseo dominio en tecnologías versátiles como React, Node.js y Django. También tengo experiencia en gestión de bases de datos, arquitectura de computadores, configuración de redes y administración de sistemas con herramientas como Windows Server.
+                            Hola, soy Pedro, desarrollador con habilidades backend y frontend. Con más de 4 años de experiencia resolviendo problemáticas reales, poseo dominio en tecnologías versátiles como React, Node.js y Django. También poseo conocimientos en gestión de bases de datos, arquitectura de computadores, configuración de redes y administración de sistemas con herramientas como Windows Server.
                         </p><br>
                         
                         <p>
@@ -310,10 +310,10 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/AppCasos1.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Sistema de control de actividades con entorno personalizable</h3><br>
-                        <p>Sistema para llevar un control de actividades que permite adaptarse a cualquier entorno de trabajo. Desarrollado en React, Django y Bootstrap para los estilos.</p>
+                        <p>Sistema para llevar un control de actividades adaptable a cualquier entorno de trabajo. Desarrollado con React, Django y Bootstrap, desplegado en Render con base de datos PostgreSQL alojada en Neon.</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Esta aplicación permite realzar envíos de correo electrónico a varios destinarios a la vez, pero permitiendo enviar un correo personalizado con mensaje y contenido distinto a cada uno de ellos. Surge de la necesidad que se presenta constantemente en varios entornos de oficina, donde necesitan enviar varios correos pero que a cada uno de los destinarios se le debe enviar un mensaje diferente. En varias ocasiones pude observar esta situación junto a mis compañeros de trabajo, y se llegaba a utilizar herramientas con macros en Excel, que requerían vinculación con aplicaciones como Outlook de escritorio, configuraciones e interfaces confusas y complicadas para un usuario común.</p>
+                        <p>Este sistema permite registrar actividades y llevar un seguimiento. A cada actividad se le asigna un encargado a realizarla, la persona interesada o el cliente a atender, y una descripción. Es personalizable a cualquier entorno de trabajo, ya que permite registrar categorías para asignaras a los clientes, por ejemplo, siendo el caso de un entorno de institución educativa, poder registrar profesores, estudiantes, representantes, etc. Funciona mediante un sistema de usuarios, siendo los administradores capaces de realizar todas las operaciones, y los usuarios estándar con mas acceso limitado, teniendo mas que todo, opciones de consulta de información. Por lo tanto, mediante este sistema, los encargados podrán llevar un control del historial de actividades pendientes, que empleados cumplen con sus tareas asignadas, a quien se debe atender, y personalizar y adaptar el sistema a su entorno de trabajo.</p>
                         <a class="enlaceApp1" href="https://frontendappcasos-p1.onrender.com">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
@@ -321,10 +321,11 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/appcorreo1.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Sistema de envíos personalizados de email a múltiples destinatarios</h3><br>
-                        <p>Aplicación para enviar varios correos personalizados, desarrollada en React y Node.js.</p>
+                        <p>Aplicación para enviar varios correos personalizados, desarrollada en React y Node.js, y desplegada en Render.</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Esta aplicación permite realzar envíos de correo electrónico a varios destinarios a la vez, pero permitiendo enviar un correo personalizado con mensaje y contenido distinto a cada uno de ellos. Surge de la necesidad que se presenta constantemente en varios entornos de oficina, donde necesitan enviar varios correos pero que a cada uno de los destinarios se le debe enviar un mensaje diferente. En varias ocasiones pude observar esta situación junto a mis compañeros de trabajo, y se llegaba a utilizar herramientas con macros en Excel, que requerían vinculación con aplicaciones como Outlook de escritorio, configuraciones e interfaces confusas y complicadas para un usuario común. </p>
+                        <p>Esta aplicación permite realzar envíos de correo electrónico a varios destinarios a la vez, pero permitiendo enviar un correo personalizado con mensaje y contenido distinto a cada uno de ellos. Surge de la necesidad que se presenta constantemente en varios entornos de oficina, donde necesitan enviar varios correos pero que a cada uno de los destinarios se le debe enviar un mensaje diferente. En varias ocasiones pude observar esta situación junto a mis compañeros de trabajo, y se llegaba a utilizar herramientas con macros en Excel, que requerían vinculación con aplicaciones como Outlook de escritorio, configuraciones e interfaces confusas y complicadas para un usuario común. Esta solución fue desarrollada con React y Node.js, y está desplegada en Render.
+ </p>
                         <a class="enlaceApp1" href="https://frontend-appcorreos1.onrender.com">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
@@ -332,7 +333,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/crudEjemplo1.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Ejemplo de sistema CRUD con interfaz de usuario</h3><br>
-                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado el Backend con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.</p>
+                        <p>Interfaz simple con funcionalidad de registro (operaciones CRUD). Desarrollado el Backend con Node.js y para el Frontend HTML, CSS, JavaScript y jQuery.Desplegado en Render y base de datos PostgreSQL alojada en Neon.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Interfaz de usuario simple, que permite el registro de información a una base de datos, logrando realizar las operaciones CRUD, consultar, guardar, actualizar y eliminar, ofreciendo una interfaz amigable. Fue realizado con objetivos prácticos, y a la vez sirve como base o plantilla para otros proyectos.</p>
@@ -344,7 +345,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/webRestaurant1.jpeg" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Sitio web modelo de restaurante</h3><br>
-                        <p>Sitio web para restaurante con sección de menús dinámica, conectada a una base de datos PostgreSQL. Interfaz desarrollada en React y CSS.</p>
+                        <p>Sitio web para restaurante con sección de menús dinámica, conectada a una base de datos PostgreSQL. Interfaz desarrollada en React y CSS, desplegado en Vercel.</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Modelo de página web para negocios del sector gastronómico, con una sección de menús cuya información se consulta en tiempo real desde una base de datos PostgreSQL. La interfaz está desarrollada en React y CSS, ofreciendo una experiencia moderna y adaptable.</p>
@@ -356,7 +357,7 @@
                     <div class="divImgTarj"><img src="imagenes/proyectos/proyectoFormRestaurant.png" alt=""></div>
                     <div class="parrafoTarj">
                         <h3>Sistema de gestión de productos</h3><br>
-                        <p>Sistema web automatizado para administrar productos y categorías en un negocio. Incluye autenticación con roles y funciones específicas por usuario. Desarrollado con React y CSS en el frontend, y Django en el backend.</p>
+                        <p>Sistema web automatizado para administrar productos y categorías en un negocio. Incluye autenticación con roles y funciones específicas por usuario. Desarrollado con React y CSS en el frontend, y Django en el backend. Frontend desplegado en Vercel, backend en Koyeb y base de datos PostgreSQL en Neon</p>
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.</p>
