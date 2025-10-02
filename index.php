@@ -348,8 +348,8 @@
                         <p>Sitio web para restaurante con sección de menús dinámica, conectada a una base de datos PostgreSQL. Interfaz desarrollada en React y CSS, desplegado en Vercel.</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Modelo de página web para negocios del sector gastronómico, con una sección de menús cuya información se consulta en tiempo real desde una base de datos PostgreSQL. La interfaz está desarrollada en React y CSS, ofreciendo una experiencia moderna y adaptable.</p>
-                        <p>Esta web funciona como frontend del Sistema de gestión de productos para restaurantes, una aplicación complementaria cuyo frontend también está construido en React y el backend en Django. Juntas, ambas herramientas forman una solución integral para la gestión y presentación de productos en entornos de restauración.</p>
+                        <p>Modelo de página web para negocios del sector gastronómico, con una sección de menús cuya información se consulta en tiempo real desde una base de datos PostgreSQL. La interfaz está desarrollada en React y CSS, ofreciendo una experiencia moderna y adaptable.
+                        Esta web funciona como frontend del Sistema de gestión de productos para restaurantes, una aplicación complementaria cuyo frontend también está construido en React y el backend en Django. Juntas, ambas herramientas forman una solución integral para la gestión y presentación de productos en entornos de restauración.</p>
                         <a class="enlaceApp1" href="https://restaurant1-frontend.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
@@ -360,8 +360,8 @@
                         <p>Sistema web para administrar productos y categorías. Desarrollado con React y CSS en el frontend, y Django en el backend. Frontend desplegado en Vercel, backend en Koyeb, base de datos PostgreSQL en Neon e integración con Cloudinary para las imagenes</p>
                     </div> 
                     <div class="parrafoTarj2">
-                        <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.</p>
-                        <p>Este panel de administración se integra con el sitio web modelo de restaurante incluido en este portafolio, proporcionando el backend que alimenta dinámicamente la sección de menús. Aunque está orientado al sector gastronómico, su arquitectura es completamente adaptable a cualquier tipo de negocio que requiera gestión de productos. <span>Usuario para probar la app (rol user), usuario: user1 | clave: 1234_*</span></p>
+                        <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.
+                        Este panel de administración se integra con el sitio web modelo de restaurante incluido en este portafolio, proporcionando el backend que alimenta dinámicamente la sección de menús. Aunque está orientado al sector gastronómico, su arquitectura es completamente adaptable a cualquier tipo de negocio que requiera gestión de productos. <strong style="text-decoration: underline">Usuario para probar la app (rol user), USUARIO: user1 | CLAVE: 1234_*</strong></p>
                         <a class="enlaceApp1" href="https://formulario-product1.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
