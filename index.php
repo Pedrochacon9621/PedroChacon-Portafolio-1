@@ -361,7 +361,7 @@
                     </div> 
                     <div class="parrafoTarj2">
                         <p>Aplicación web diseñada para registrar, consultar y gestionar productos y sus categorías de forma eficiente. El sistema incorpora autenticación basada en roles, permitiendo a los administradores crear nuevos usuarios y asignarles permisos según sus funciones.</p>
-                        <p>Este panel de administración se integra con el sitio web modelo de restaurante incluido en este portafolio, proporcionando el backend que alimenta dinámicamente la sección de menús. Aunque está orientado al sector gastronómico, su arquitectura es completamente adaptable a cualquier tipo de negocio que requiera gestión de productos. <span>Usuario para probar la app, usuario: user1 | clave: 1234_*</span></p>
+                        <p>Este panel de administración se integra con el sitio web modelo de restaurante incluido en este portafolio, proporcionando el backend que alimenta dinámicamente la sección de menús. Aunque está orientado al sector gastronómico, su arquitectura es completamente adaptable a cualquier tipo de negocio que requiera gestión de productos. <span>Usuario para probar la app (rol user), usuario: user1 | clave: 1234_*</span></p>
                         <a class="enlaceApp1" href="https://formulario-product1.vercel.app">🔗Enlace a la aplicación</a>
                     </div>
                 </div>
