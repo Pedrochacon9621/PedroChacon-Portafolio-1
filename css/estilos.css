@@ -682,12 +682,14 @@ footer{
     }
     .divContentModalApp .divModalText {
         width: 100%;
-        
     }
 }
 @media (max-width: 500px) {
     .divContentModalApp{
+        height: 95%;
         font-size: 15px;
+        overflow-y: auto; /* ✅ permite scroll interno si el contenido excede */
+
     }
     .divContentModalApp .modalImg{
        width: 300px;
