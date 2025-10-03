@@ -615,7 +615,7 @@ footer{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6); /* fondo oscuro */
   display: none; /* oculto por defecto */
-  overflow-y: auto; /* ✅ permite scroll vertical */
+/*  overflow-y: auto; /* ✅ permite scroll vertical */
   justify-content: center;
   align-items: center;
   z-index: 1000;
