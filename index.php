@@ -420,6 +420,7 @@
     <!-- Modal oculto para las apps-->
 
     <!-- Modal oculto para Politica de privacidad-->
+    <!--
     <div id="divContenedorFondoModalID2" class="divContenedorFondoModalClass" >
         <div class="divContentModal">
             <span id="btnCerrarPolitica" class="btnCerrarModal">&times;</span>
@@ -430,7 +431,7 @@
             </div>
         </div>
     </div>
-    
+    -->
     <!-- Modal oculto para COntacto-->
     <?php
         include "componentes/modalContacto.php";

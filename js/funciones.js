@@ -1,5 +1,5 @@
 //funcion cargar Modal inicial de Politica de Privacidad-----------------------------------------------------------------------------------------------------------------------
-const modal2 = document.getElementById('divContenedorFondoModalID2');
+/*const modal2 = document.getElementById('divContenedorFondoModalID2');
 const closeBtnPolitica = document.getElementById('btnCerrarPolitica')
 window.onload = function () {
   modal2.style.display = 'flex';
@@ -14,7 +14,7 @@ closeBtnPolitica.addEventListener('click', () => {
     if (e.target === modal2) {
       modal2.style.display = 'none';
     }
-  });
+  });*/
 
 //funcion cargar Modal inicial de Politica de Privacidad-----------------------------------------------------------------------------------------------------------------------
 
