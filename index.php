@@ -21,21 +21,20 @@
                 <h1 class="enlaceBtn1" style="padding: 5px 50px; border-radius: 50px;">Pedro Chacón</h1>
                 <h4>Desarrollador Full-Stack</h4>
             </div>
-            <div class= "divPresentacion2">
-                    
+            <div class= "divPresentacion2"> 
                     <div class="contenTextPresent">
                         <p>
-                            Hola, soy Pedro, desarrollador con habilidades backend y frontend. Poseo dominio en tecnologías versátiles como React, Node.js, Django y Php. También tengo conocimientos en gestión de bases de datos, arquitectura de computadores, configuración de redes y administración de sistemas con herramientas como Windows Server.
+                        Hola, soy Pedro, desarrollador Full Stack con experiencia en backend y frontend. Construyo interfaces complejas, implemento autenticación segura y desarrollo APIs robustas utilizando tecnologías como React, Node.js, Django y PHP. También tengo conocimientos en bases de datos relacionales, arquitectura de computadores, redes y administración de sistemas con herramientas como Windows Server.
                         </p><br>
-                        
+
                         <p>
-                            Además de mi experiencia técnica, he configurado, aprendido y manejado múltiples sistemas e interfaces de usuario, que van desde aplicaciones administrativas hasta herramientas de edición y entretenimiento. Esta experiencia me ha permitido desarrollar una comprensión profunda de lo que los usuarios realmente necesitan, lo que me ayuda a diseñar soluciones tecnológicas más intuitivas, funcionales y efectivas.
+                        A lo largo de mi trayectoria he configurado y utilizado diversos sistemas, desde aplicaciones administrativas hasta herramientas de edición y entretenimiento. Esta experiencia me ha permitido entender profundamente las necesidades reales de los usuarios y diseñar soluciones tecnológicas intuitivas, funcionales y efectivas.
                         </p><br>
+
                         <p>
-                            Me apasiona colaborar con equipos creativos, aprender constantemente y enfrentar nuevos desafíos tecnológicos que me permitan crecer y aportar valor.
+                        Me apasiona colaborar con equipos creativos, aprender constantemente y enfrentar desafíos tecnológicos que impulsen mi crecimiento profesional y aporten valor real a cada proyecto.
                         </p>
-                    </div>
-                    
+                    </div>   
             </div>   
                          <div class="btnCV">
                             <a href="docs/Pedro_Chacon_CV-online.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
