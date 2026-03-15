@@ -37,7 +37,7 @@
                     </div>   
             </div>   
                          <div class="btnCV">
-                            <a href="docs/Pedro_Chacon_CV-online.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
+                            <a href="docs/Pedro_Chacon_CV.pdf" class="enlaceBtn1" target="_blank">Descargar CV</a>
                         </div> 
                     <!--  Con enlace a GIT  
                     <div style="display: flex; gap:10px">
