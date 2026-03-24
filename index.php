@@ -112,10 +112,10 @@
                         </div>
                         <div class="tarjetasTec">
                             <div class="divImgTec">
-                                <img src="imagenes/iconsTec/jQuery_dark.svg" alt="">
+                                <img src="imagenes/iconsTec/laravel.svg" alt="">
                             </div>
                             <div class="divTextTec">
-                                <p>jQuery</p>
+                                <p>Laravel</p>
                             </div>
                         </div>
                         <div class="tarjetasTec">
