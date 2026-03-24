@@ -112,10 +112,10 @@
                         </div>
                         <div class="tarjetasTec">
                             <div class="divImgTec">
-                                <img src="imagenes/iconsTec/laravel.svg" alt="">
+                                <img src="imagenes/iconsTec/jQuery_dark.svg" alt="">
                             </div>
                             <div class="divTextTec">
-                                <p>Laravel</p>
+                                <p>jQuery</p>
                             </div>
                         </div>
                         <div class="tarjetasTec">
@@ -164,13 +164,21 @@
                                 <p>Express</p>
                             </div>
                         </div>
-                        <div class="centrarUltimas2">
+                        <!--<div class="centrarUltimas2">-->
                         <div class="tarjetasTec">
                             <div class="divImgTec">
                                 <img src="imagenes/iconsTec/django.svg" alt="">
                             </div>
                             <div class="divTextTec">
                                 <p>Django</p>
+                            </div>
+                        </div>
+                        <div class="tarjetasTec">
+                            <div class="divImgTec">
+                                <img src="imagenes/iconsTec/laravel.svg" alt="">
+                            </div>
+                            <div class="divTextTec">
+                                <p>Laravel</p>
                             </div>
                         </div>
                         <div class="tarjetasTec">
@@ -190,7 +198,7 @@
                             </div>
                         </div>
                     </div>
-                    </div><!--Centrar Ultimas -->    
+                    <!-- </div> Centrar Ultimas -->    
                 </div>
                 <!--columna 3-->
                 <div class="divContTarjTec">
